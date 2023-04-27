@@ -1,0 +1,1 @@
+const availableQuantityInstock = selectedColor.value && selectedSize.value ? cartProduct.detailProduct.colors.find(color => color.name === selectedColor.value).sizes.find(size => size.name === selectedSize.value).quantity : 0;
